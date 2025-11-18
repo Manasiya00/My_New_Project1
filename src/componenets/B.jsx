@@ -12,7 +12,7 @@ function B() {
             {products && products.map((p, i) => {
                 return <>
                     <p>
-                        {p.id}{p.title} Hello
+                        {p.id}{p.title}
                     </p>
                     <img src={p.image} alt="" />
                     <hr />
